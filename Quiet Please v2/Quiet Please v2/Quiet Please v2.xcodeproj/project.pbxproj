@@ -15,6 +15,8 @@
 		6E8E5EBB291581CE00426EDC /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E8E5EBA291581CE00426EDC /* PythonKit */; };
 		6EBD656C2916B88800B42E7B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD656B2916B88800B42E7B /* Config.swift */; };
 		6EBD65732916CE3200B42E7B /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EBD65722916CE3200B42E7B /* Config.plist */; };
+		6ECF451C29171B630027E61B /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF451B29171B630027E61B /* main.py */; };
+		6ECF451E29171B6B0027E61B /* quiet.py in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF451D29171B6B0027E61B /* quiet.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		6E8E5EB72915811500426EDC /* Quiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiet.swift; sourceTree = "<group>"; };
 		6EBD656B2916B88800B42E7B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		6EBD65722916CE3200B42E7B /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Config.plist; path = ../../../Config.plist; sourceTree = "<group>"; };
+		6ECF451B29171B630027E61B /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = main.py; path = ../../../main.py; sourceTree = "<group>"; };
+		6ECF451D29171B6B0027E61B /* quiet.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = quiet.py; path = ../../../quiet.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		6E8E5EA7291580FE00426EDC /* Quiet Please v2 */ = {
 			isa = PBXGroup;
 			children = (
+				6ECF451B29171B630027E61B /* main.py */,
+				6ECF451D29171B6B0027E61B /* quiet.py */,
 				6EBD65722916CE3200B42E7B /* Config.plist */,
 				6E8E5EA8291580FE00426EDC /* Quiet_Please_v2App.swift */,
 				6E8E5EAA291580FE00426EDC /* ContentView.swift */,
@@ -146,7 +152,9 @@
 			files = (
 				6E8E5EB02915810200426EDC /* Preview Assets.xcassets in Resources */,
 				6EBD65732916CE3200B42E7B /* Config.plist in Resources */,
+				6ECF451E29171B6B0027E61B /* quiet.py in Resources */,
 				6E8E5EAD2915810200426EDC /* Assets.xcassets in Resources */,
+				6ECF451C29171B630027E61B /* main.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

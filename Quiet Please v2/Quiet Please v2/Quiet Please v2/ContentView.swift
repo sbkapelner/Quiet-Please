@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var showResult: Bool = false
     var body: some View {
         Button(action: {
+            UpdateConfig.update(newSortOrder: "cpu", newThreshold: "3.0", newNumProcesses: 3, newIterations: 3)
             runPythonCode()
             showResult.toggle()
         }) {Text("Run Python")}
